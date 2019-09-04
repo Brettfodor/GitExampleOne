@@ -9,6 +9,8 @@ namespace GitExampleOne
             string firstName = "Brett";
 
             string lastName = "Fodor";
+
+            string sweetness = "Not Brett";
             
             int age = 29;
 
@@ -21,6 +23,8 @@ namespace GitExampleOne
             Console.WriteLine("I am " + age + " years old");
 
             Console.WriteLine("I'm really glad I'm not " + oldAge + " years old");
+
+            Console.WriteLine("Who is the Sweetness? " + sweetness);
         }
     }
 }
